@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="viewModel"
+            type="com.mobiloitte.friendsierunnerapp.viewModel.FragmentPrivacyPolicyViewModel" />
+    </data>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvText"
+        android:textColor="@color/white"
+        android:text="@string/loriuam"
+        android:layout_margin="@dimen/_5sdp"/>
+</LinearLayout>
+</layout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#ffffff</color>
+    <color name="light_grey">#41FFFFFF</color>
+    <color name="customColor">#9c41b8bd</color>
+    <color name="orange">#d74601</color>
+    <color name="red">#E91010</color>
+    <color name="lightBlue">#47bbbf</color>
+    <color name="green">#15343F</color>
+    <color name="darkBule">#1B2B31</color>
+    <color name="darkBule1">#1b2b31</color>
+    <color name="fresh">#26434C</color>
+    <color name="header">#0F6570</color>
+    <color name="main_toolbar">#275567</color>
+
+    <color name="exprn">#2B535E</color>
+    <color name="origene">#D74601</color>
+    <color name="darkG">#47BBBF</color>
+    <color name="light">#275567</color>
+    <color name="darkR">#11455B</color>
+    <color name="drakA">#111D23</color>
+    <color name="drakB">#0E2935</color>
+    <color name="lightC">#11455B</color>
+    <color name="tranpelant">#275567</color>
+    <color name="drakL">#275567</color>
+
+    <color name="time_color">#4fb2b7</color>
+    <color name="bg_black">#042B26</color>
+    <color name="dull_color">#828D92</color>
+    <color name="red_color">#F05106</color>
+    <color name="bg1_color">#7ACAAD</color>
+    <color name="bg_color1">#0D3C37</color>
+    <color name="provider_col">#2AB8CA</color>
+
+
+
+
+    <color name="dark_green">#1e272e</color>
+    <color name="blue">#11455B</color>
+    <color name="sky">#1ED6FF</color>
+    <color name="darkblack">#275567</color>
+    <color name="black">#1B2B31</color>
+    <color name="light_orange">#e84118</color>
+    <color name="_darkred">#b33939</color>
+    <color name="skyblack">#353D41</color>
+    <color name="darkgreen">#1e4b52</color>
+    <color name="blackcolor">#000000</color>
+    <color name="skydark">#47bbbf</color>
+    <color name="balck">#2E3D4B</color>
+    <color name="lightgreen">#05B34F</color>
+    <color name="gray">#6F6565</color>
+    <color name="hintColor">#70FFFFFF</color>
+</resources>

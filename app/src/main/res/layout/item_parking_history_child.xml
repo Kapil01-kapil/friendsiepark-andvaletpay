@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_10sdp">
+            <FrameLayout
+                android:layout_width="@dimen/_65sdp"
+                android:layout_height="@dimen/_65sdp"
+                android:id="@+id/frameLayout"
+                android:layout_marginLeft="@dimen/_3sdp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="@dimen/_45sdp"
+                    android:id="@+id/tvtimmer"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_11sdp"
+                    android:background="@drawable/client_is_ready_drawable"
+                    android:gravity="center"
+                    android:text="@string/_33_32"
+                    android:textColor="#ffffff"
+                    android:visibility="gone"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="@dimen/_20sdp"
+                    android:id="@+id/ivCompleted"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_gravity="end"
+                    android:visibility="gone"
+                    android:background="@drawable/group_7" />
+
+                <TextView
+                    android:layout_width="@dimen/_45sdp"
+                    android:id="@+id/tvDF"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:gravity="center"
+                    android:text="DF"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/_16sdp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="@dimen/_47sdp"
+                    android:id="@+id/tvnumber"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:singleLine="true"
+                    android:layout_marginTop="@dimen/_12sdp"
+                    android:gravity="center"
+                    android:text="@string/_0344242"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    />
+
+            </FrameLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+</layout>

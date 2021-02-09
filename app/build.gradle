@@ -1,0 +1,64 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.0"
+    defaultConfig {
+        applicationId "com.mobiloitte.friendsierunnerapp"
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    dataBinding
+            {
+                enabled = true
+            }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'com.google.firebase:firebase-messaging:17.3.4'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    //dependencies
+    implementation 'de.hdodenhof:circleimageview:3.0.0'
+    implementation 'com.intuit.sdp:sdp-android:1.0.5'
+    implementation 'me.relex:circleindicator:1.2.2'
+    implementation 'com.google.android.gms:play-services-safetynet:15.0.1'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    implementation 'com.android.support:cardview-v7:29.0.0'
+    implementation 'com.android.support:design:29.0.0'
+    implementation 'com.android.support:support-v4:29.0.0'
+    implementation 'com.journeyapps:zxing-android-embedded:3.6.0'
+    implementation 'com.codesgood:justifiedtextview:1.1.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.1.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.10.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.1.0'
+    implementation 'com.orhanobut:hawk:2.0.1'
+    implementation 'com.android.volley:volley:1.0.0'
+    implementation 'com.intuit.sdp:sdp-android:1.0.6'
+    implementation 'com.intuit.ssp:ssp-android:1.0.6'
+    implementation('com.alimuzaffar.lib:pinentryedittext:1.3.10')
+
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    implementation 'com.squareup.retrofit2:retrofit:2.1.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.10.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.1.0'
+
+    implementation 'com.google.android.gms:play-services-auth:17.0.0'
+
+}
+apply plugin: 'com.google.gms.google-services'

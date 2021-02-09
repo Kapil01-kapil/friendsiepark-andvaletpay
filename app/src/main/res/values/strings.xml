@@ -1,0 +1,291 @@
+<resources>
+    <string name="app_name">FriendsieRunner</string>
+    <string name="venue">
+<![CDATA[ Venue Name & Type ]]>
+</string>
+    <string-array name="Spinner">
+        <item>5 miles</item>
+        <item>10 miles</item>
+        <item>15 miles</item>
+        <item>20 miles</item>
+        <item>25 miles</item>
+    </string-array>
+    <string-array name="text">
+        <item>AL</item>
+        <item>AL</item>
+        <item>AL</item>
+    </string-array>
+    <string-array name="text2">
+        <item>Expand time by </item>
+    </string-array>
+    <string name="StartValetText">
+Would you like us to alert you \nafter a certain amount of time?
+</string>
+    <string name="StartValetRadioButton1">No, I will keep track of time myself</string>
+    <string name="StartValetRadioButton2">Yes, notify please notify me after:</string>
+    <string-array name="NotifyTime">
+        <item>1 Hour</item>
+        <item>2 Hour</item>
+        <item>3 Hour</item>
+        <item>4 Hour</item>
+        <item>5 Hour</item>
+    </string-array>
+    <string-array name="spinner_nux">
+        <item>MARCUS VALET SERVICE</item>
+    </string-array>
+    <string name="ActiveRunnerAccount">Activate Runner Account?</string>
+    <string name="yesCreatRunner">YES, CREATE \nRUNNER \nACCOUNT</string>
+    <string name="DoThatLater">DO THAT LATER \nCREATE MY DRIVER \nACCOUNT</string>
+    <string name="ReturnCarGetReadyNow">Please get ready now.</string>
+    <string name="ReturnCarOnTheWay">Your car is on the way!</string>
+    <string name="ReturnCarReadyIn">YOUR CAR WILL BE READY IN:</string>
+    <string name="nux_location">32 Peachtree st Nw\n Atlanta, Ga. 30303 \n338-344-2344</string>
+    <string name="nux_my_parked_cars">YOU HAVE NOT VALETED ANY CARS TODAY.</string>
+    <string name="nux_renter_txt">Click below to find valet services near you</string>
+    <string name="payment_method_txt">Please add a credit card to your valetPay walet.</string>
+    <string name="sorry_location_not_found">We did not find any valet\n services in your area.</string>
+
+    <string name="hyundai_centera">Hyundai Centera</string>
+
+
+    <string name="find_valet">FIND VALET</string>
+    <string name="service_provider">Service Provider:</string>
+    <string name="location_assignement">Location Assignement</string>
+
+    <string name="my_parked_cars">My Parked Cars</string>
+    <string name="new_client">NEW CLIENT</string>
+
+    <string name="hw">HW</string>
+    <string name="mg">MG</string>
+    <string name="_33_32">33:32</string>
+    <string name="jared_valet_company">Jared Valet Company</string>
+    <string name="start_valet">START VALET</string>
+    <string name="sorry_">SORRY!</string>
+    <string name="name_as_appears_on_card">Name as appears on card</string>
+    <string name="exp">Exp.</string>
+    <string name="update_payment_method">UPDATE PAYMENT METHOD</string>
+    <string name="miranda_gillium">Miranda Gillium</string>
+    <string name="hyundai_center">Hyundai Center</string>
+    <string name="_2007">2007</string>
+    <string name="white">White</string>
+    <string name="_243_ysp">243-YSP</string>
+
+    <string name="client_information">Client Information</string>
+    <string name="o344242">o344242</string>
+    <string name="problem_with_car">PROBLEM\nWITH\nCAR</string>
+    <string name="car_returned_to_driver">CAR \nRETURNED \nTO DRIVER</string>
+    <string name="client_is_ready">CLIENT IS READY</string>
+    <string name="my_tip">MY TIP</string>
+    <string name="provider">Provider</string>
+    <string name="time_in_">Time in</string>
+    <string name="issues_reported">Issues Reported</string>
+    <string name="_0_issues">0 ISSUES</string>
+    <string name="date">Date</string>
+    <string name="feb_13_2019">FEB 13,2019</string>
+    <string name="time_out">Time out</string>
+    <string name="_3_30pm_est">3:30PM EST</string>
+    <string name="location">Location</string>
+    <string name="houstons_restaurant">HOUSTONS RESTAURANT</string>
+    <string name="completed">COMPLETED</string>
+    <string name="_15">$15</string>
+    <string name="total">TOTAL</string>
+    <string name="resolved">RESOLVED</string>
+    <string name="_2_issues_fixed">2 ISSUES FIXED</string>
+    <string name="complete_registration">COMPLETE REGISTRATION</string>
+    <string name="cancel_">CANCEL</string>
+    <string name="try_again">TRY AGAIN</string>
+    <string name="card_number">Card number</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="_0077">**** **** **** **** 0077</string>
+    <string name="credit_card_number">Credit Card Number</string>
+    <string name="_12_22">12/22</string>
+    <string name="exp_data">Exp.Data</string>
+    <string name="_30303">30303</string>
+    <string name="zip_code">Zip Code</string>
+    <string name="edit_or_replace_card">edit or Replace card</string>
+    <string name="_244">244</string>
+    <string name="cvc_number">CVC Number</string>
+    <string name="hi_miranda">Hi Miranda!</string>
+    <string name="find_vslet_s_nearby">Find Vslet\'s nearby..</string>
+    <string name="manage_cars">Manage cars</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="login">Reset Password</string>
+    <string name="_404_306_7040">404.306.7040</string>
+    <string name="houstons">HOUSTONS</string>
+    <string name="restaurant">RESTAURANT</string>
+    <string name="_32_peachtree_st_nw">32 Peachtree st Nw</string>
+    <string name="_339_344_2344">339.344.2344</string>
+    <string name="atlanta_ga_30303">Atlanta Ga. 30303</string>
+    <string name="_20">$20</string>
+    <string name="show_all_providers">SHOW ALL PROVIDERS</string>
+    <string name="today_march_16_2018">Today, March 16 2018</string>
+    <string name="_0344242">0344242</string>
+    <string name="mw">MW</string>
+    <string name="dm">DM</string>
+    <string name="vp">Vp</string>
+    <string name="request_passcode">Request Password</string>
+    <string name="please_check_your_email_for_a_like_from">Please check your email for a like from</string>
+    <string name="friend_park_that_will_allow_you_to">Friend Park that will allow you to</string>
+    <string name="change_your_passcode">change your password.</string>
+    <string name="my_profile">My Profile</string>
+    <string name="miranda_terrell">Miranda Terrell</string>
+    <string name="miranda_friendsiepark_com">Miranda@Friendsiepark.com</string>
+    <string name="_404_307_7040_">404-307-7040</string>
+    <string name="edit_pofile">edit pofile</string>
+    <string name="confirm_passcode">Confirm Passcode</string>
+    <string name="new_passcode">New Passcode</string>
+    <string name="email_address">Email Address</string>
+    <string name="horance_empowrd_com">Horance@empowrd.com</string>
+    <string name="reset_passcode">Reset Password</string>
+    <string name="report_issues">Report Issues</string>
+    <string name="reported_issues">Reported Issues</string>
+    <string name="_02_13_2019">02/13/2019</string>
+    <string name="bustrd_tire">BUSTRD TIRE</string>
+    <string name="broken_car_window">BROKEN CAR WINDOW</string>
+    <string name="marxus_valet_service">MARXUS VALET SERVICE</string>
+    <string name="the_car_window_was_broken_into_when_the_car_was_moved_to_new_sport">The car window was broken into when the \ncar was moved to new sport.
+    </string>
+    <string name="cancel">Cancel</string>
+    <string name="add_comment">Add Comment</string>
+    <string name="valet_history">Valet History</string>
+    <string name="march_12_2018">March 12 2018</string>
+    <string name="add_tip">Add Tip?</string>
+    <string name="why_should_you_tip">Why should you tip?</string>
+    <string name="if_your_car_was_returned_promptly_and_without">If your car was returned promptly and without</string>
+    <string name="any_issues_we_suggest_tipping_as_a_courtesy">any issues we suggest tipping as a courtesy.</string>
+    <string name="no_tip">no tip</string>
+    <string name="_1">$1</string>
+    <string name="suggested">SUGGESTED</string>
+    <string name="_10">$10</string>
+    <string name="_25">$25</string>
+    <string name="sorry">Sorry....</string>
+    <string name="there_was_a_problem_with_your">... there was a problem with your</string>
+    <string name="provide">Provide</string>
+    <string name="data">Data</string>
+    <string name="time_in">TIME IN</string>
+    <string name="time_out_">TIME OUT</string>
+    <string name="_3_00pm_est">3:00PM EST</string>
+    <string name="issues_repirted">Issues Repirted</string>
+    <string name="issues">Issues</string>
+    <string name="houstaurant_restaurant">HOUSTAURANT RESTAURANT</string>
+    <string name="umder_review">under review</string>
+    <string name="switch_to_driver_acount">Switch to Driver Acount</string>
+    <string name="valent_firms">Valent Firms</string>
+    <string name="tip_statements">Tip Statements</string>
+    <string name="parking_history">Parking History</string>
+    <string-array name="country_arrays">
+        <item>Malaysia</item>
+        <item>United States</item>
+        <item>Indonesia</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Singapore</item>
+        <item>New Zealand</item>
+        <item>India</item>
+    </string-array>
+    <string name="must_pick">Must pick</string>
+    <string name="up_car_by">up car by</string>
+    <string name="_6_50pm">6:50pm</string>
+    <string name="where">Where:</string>
+    <string name="hudson_grill">Hudson Grill</string>
+    <string name="valet">Valet:</string>
+    <string name="atlanta_valet_services">Atlanta Valet Services</string>
+    <string name="closing_time">Closing Time:</string>
+    <string name="_7_00pm_est">7:00pm est</string>
+    <string name="car">Car:</string>
+    <string name="_2007_hyundai_centra_white">2007 Hyundai Centra | White</string>
+    <string name="pick_up_in">Pick up in:</string>
+    <string name="_6_50">6:50</string>
+    <string name="add_time">Add Time</string>
+    <string name="horace_is_your_car_a">Horace, is your car a \n22008 Hyundia mercury?</string>
+    <string name="_2008_hyundia_mercury">2008 Hyundia mercury?</string>
+    <string name="this_is_my_car">THIS IS MY CAR</string>
+    <string name="wrong_car">Wrong Car?</string>
+    <string name="please_edit_or_add">Please edit or add</string>
+    <string name="your_credit_card">your credit card</string>
+    <string name="information">information.</string>
+    <string name="exp_date">Exp. Date</string>
+    <string name="save_changes">SAVE CHANGES</string>
+    <string name="verify_mobile_number">Verify Mobile Number</string>
+    <string name="we_will_send_a_5_digit_code_to_your_mobile">We will send a 5 digit code to your mobile</string>
+    <string name="phone_via_sms_to_verify_your_identity">phone via SMS to verify your identity.</string>
+    <string name="_404_307_7040">404-307-7040</string>
+    <string name="send_my_code">SEND MY CODE</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="edit">EDIT NUMBER</string>
+    <string name="full_name">Full Name</string>
+    <string name="change_password">Change Password</string>
+    <string name="confirm">Confirm</string>
+    <string name="your_code_has_been_sent">Your Code has been sent!</string>
+    <string name="enter_the_code_below_to_complete_verification">Enter the code below to complete verification.</string>
+    <string name="_32532">xxxxx</string>
+    <string name="verify_code">VERIFY CODE</string>
+    <string name="don_t_recieve_your_code_via_text">Didn\'t receive your code via text?</string>
+    <string name="number">NUMBER</string>
+    <string name="resend">RESEND CODE</string>
+    <string name="code">CODE</string>
+    <string name="already_a_member">Already a Member?</string>
+    <string name="log_in">Log In</string>
+    <string name="unlock_instant_on_demand_valet_services">Unlock instant on-demand valet services</string>
+    <string name="wherever_you_are">wherever you are.</string>
+    <string name="get_started">GET STARTED</string>
+    <string name="forgot_passcode">Forgot Password</string>
+    <string name="reset_password">RESET PASSWORD</string>
+    <string name="horace_empowrd_com">Horace@empowrd.com</string>
+    <string name="my_honda">My Honda</string>
+    <string name="white_honda_accord">White Honda Accord</string>
+    <string name="fdf_435">FDF 435</string>
+    <string name="edit1">Edit</string>
+    <string name="add_new_vehicle">ADD NEW VEHICLE</string>
+    <string name="please_enter_your_valet_code_below">Please enter your valet code below</string>
+    <string name="submit_code">SUBMIT CODE</string>
+    <string name="_5">$5</string>
+    <string name="tip_amount">TIP AMOUNT</string>
+    <string name="marcus_valet_service">MARCUS VALET SERVICE</string>
+    <string name="date_">DATE</string>
+    <string name="houstons_retaurant">HOUSTONS RETAURANT</string>
+    <string name="home">Home</string>
+    <string name="financial_statements">Financial Statements</string>
+    <string name="logout">LOGOUT</string>
+    <string name="please_wait_">Please wait...</string>
+    <string name="enter_first_name">*Please enter full name.</string>
+    <string name="password_changepassword_same">*Password and change password should be same.</string>
+    <string name="enter_confirm_password">*Please enter confirm password.</string>
+    <string name="enter_valid_full_name">*Please enter valid full name</string>
+    <string name="enter_full_pin">*Please enter complete pin.</string>
+    <string name="enter_email">*Please enter email.</string>
+    <string name="enter_valid_email">*Please enter valid email.</string>
+    <string name="password_contain_uppercase">*Password should contain min 6 character an uppercase and special character.</string>
+    <string name="enter_password">*Please enter password .</string>
+    <string name="enter_password_valis">*Please enter  valid password .</string>
+    <string name="enter_password_8">*Please enter password of 8 digit.</string>
+    <string name="_8am_12pm">8am-12pm</string>
+    <string name="enter_phone_number">*Please enter phone number.</string>
+    <string name="valid_phone_number">*Please enter valid phone number.</string>
+    <string name="start_typing_here">Start typing here....</string>
+    <string name="client_told_us_it_was_okay">Client told us it was okay</string>
+    <string name="getting_car_now">GETTING \nCAR \nNOW</string>
+    <string name="getting_car">GETTING \nCAR \nNOW</string>
+    <string name="problem_with">PROBLEM \nWITH \nCAR</string>
+    <string name="car_returned">CAR \nRETURNED \nTO DRIVER</string>
+    <string name="loriuam">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentumorci, sed rhoncus sapien nunc eget.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentumorci, sed rhoncus sapien nunc eget.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentumorci, sed rhoncus sapien nunc eget.</string>
+
+    <string-array name="AL">
+        <item>AL</item>
+        <item>GA</item>
+        <item>IN</item>
+
+    </string-array>
+    <string name="server_error">Sorry, couldn\'t connect to server, please try again later.</string>
+    <string name="send_app_link">SEND APP LINK</string>
+    <string name="Customer_number">Enter Customer Number</string>
+
+
+</resources>
+
+
+
+

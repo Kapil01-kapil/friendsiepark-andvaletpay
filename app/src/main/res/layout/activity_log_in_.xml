@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.mobiloitte.friendsierunnerapp.viewModel.ActivityLoginViewModel" />
+    </data>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/login_failed_drawable"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/_20sdp">
+
+            <ImageView
+                android:id="@+id/iv_back"
+                android:layout_width="36dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_forgotpass_arrowback" />
+
+
+                <ImageView
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="@dimen/_90sdp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/log_in"
+                android:gravity="center"
+                android:text="Vp"
+                android:textColor="#ecf0f1"
+                 />
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Welcome Back."
+                android:textColor="#ecf0f1"
+                android:textSize="@dimen/_20sdp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/_40sdp"
+                android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/tvEmailError"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:text="@string/enter_password"
+                android:textColor="@color/red"
+                android:textSize="@dimen/_10sdp"
+                android:visibility="gone" />
+
+
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:backgroundTint="@color/white"
+                android:inputType="textEmailAddress"
+                android:textColor="#ecf0f1"
+                android:textColorHint="#ecf0f1"
+                android:textSize="@dimen/_15sdp" />
+
+            <!--<ImageView-->
+            <!--android:id="@+id/ivFirstNameError"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:src="@drawable/ic_clear_black_24dp"-->
+            <!--android:visibility="invisible" />-->
+            <!--</LinearLayout>-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:text="Email Address"
+                android:textColor="#ecf0f1"
+
+                android:layout_marginStart="@dimen/_12sdp"
+                android:textSize="@dimen/_10sdp" />
+
+
+            <TextView
+                android:id="@+id/tvPassswordError"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:text="@string/enter_password"
+                android:textColor="@color/red"
+                android:textSize="@dimen/_10sdp"
+                android:visibility="gone" />
+
+
+            <EditText
+                android:id="@+id/etPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:backgroundTint="@color/white"
+                android:inputType="textPassword"
+                android:maxLength="18"
+                android:singleLine="true"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:textColor="#ecf0f1"
+                android:textSize="@dimen/_15sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:text="Password"
+                android:textColor="#ecf0f1"
+                android:textSize="@dimen/_10sdp" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="40dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvForgetPassword"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Forgot Password?"
+                    android:textColor="#ecf0f1"
+                    android:textSize="@dimen/_10sdp" />
+
+                <TextView
+                    android:id="@+id/tvClick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:text="Click Here"
+                    android:textColor="#22a6b3"
+                    android:textSize="@dimen/_10sdp" />
+            </LinearLayout>
+        </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/get_started1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/orange"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="GET STARTED"
+            android:textColor="#ecf0f1"
+            android:textSize="@dimen/_13sdp" />
+    </RelativeLayout>
+</layout>

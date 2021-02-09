@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "299139657559",
+    "firebase_url": "https://valetpayrunner.firebaseio.com",
+    "project_id": "valetpayrunner",
+    "storage_bucket": "valetpayrunner.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299139657559:android:8a731825cc610aed165812",
+        "android_client_info": {
+          "package_name": "com.mobiloitte.friendsiepark"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "299139657559-gb8fpnofmhcgijha7fo3gm3r1cf09jl3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mobiloitte.friendsiepark",
+            "certificate_hash": "f8ed00b284199737407c1b086722fe4052519dae"
+          }
+        },
+        {
+          "client_id": "299139657559-6uo9p0764sqfph0ii438t7tiavgl3lth.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8OS-bXD5wb1B6wI2VCteUKBTmm-DTLwQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "299139657559-6uo9p0764sqfph0ii438t7tiavgl3lth.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "299139657559-8qj6ab8lljjp8sg1pfbdrhfcohrgfiq0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.valetpay.runner"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

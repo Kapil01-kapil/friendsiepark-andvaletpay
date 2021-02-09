@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.mobiloitte.friendsierunnerapp.viewModel.FragmentDashBoardViewModel" />
+    </data>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_completed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#11455B"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".8"
+                    android:padding="@dimen/_20sdp"
+                    android:text="Client Information"
+                    android:textColor="#22a6b3"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center|center_horizontal"
+                    android:layout_weight=".1">
+
+                    <ImageView
+                        android:id="@+id/closecompleted"
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:layout_marginTop="@dimen/_20sdp"
+                        android:src="@drawable/cross_button" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlayout1"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:background="#11455B"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+                    <!--<LinearLayout
+                        android:layout_width="60dp"
+                        android:layout_marginRight="39dp"
+                        android:gravity="center"
+                        android:background="@drawable/location3"
+                        android:layout_height="60dp">
+                    <TextView android:layout_width="wrap_content"
+                              android:text="MG"
+                              android:textSize="20dp"
+                              android:textStyle="bold"
+                              android:layout_gravity="center"
+                              android:textColor="#ffffff"
+                              android:layout_height="wrap_content"/>
+                </LinearLayout>-->
+
+                    <TextView
+                        android:id="@+id/tvShortName"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/location3"
+                        android:gravity="center"
+                        android:text="MG"
+                        android:textColor="#ecf0f1"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvNumber"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:text="0344242"
+                            android:textColor="#ffff"
+                            android:textSize="20dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/tvName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:text="Miranda Gillium"
+                            android:textColor="#ffff"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/active_client"
+                        android:gravity="center"
+                        android:src="@drawable/call_icon"
+                        android:textColor="#ecf0f1" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvCarName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:text="Hyundai Centra "
+                            android:textColor="#ffff"
+                            android:textSize="15dp" />
+
+                        <TextView
+                            android:id="@+id/tvYear"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:text="2007"
+                            android:textColor="#ffff"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/tvColor"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:text="White"
+                            android:textColor="#ffff"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/tvModelNumber"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:text="243-YSP"
+                            android:textColor="#ffff"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#11455B">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="20dp"
+                    android:background="#275567"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_alignBottom="@id/linearlayout1"
+                        android:layout_gravity="center"
+
+                        android:layout_marginTop="50dp"
+                        android:orientation="horizontal"
+                        android:padding="10dp">
+
+
+                        <FrameLayout
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+
+                            <LinearLayout
+                                android:id="@+id/flProblem"
+                                android:layout_width="90sp"
+                                android:layout_height="90sp"
+                                android:background="@drawable/problem_return_car_drawable"
+                                android:orientation="vertical">
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginTop="@dimen/_20sdp"
+                                    android:gravity="center"
+                                    android:padding="2dp"
+                                    android:text="@string/problem_with"
+                                    android:textColor="#ecf0f1"
+
+                                    android:textSize="12sp" />
+                            </LinearLayout>
+
+
+                            <ImageView
+                                android:layout_width="@dimen/_20sdp"
+                                android:layout_height="@dimen/_20sdp"
+                                android:layout_gravity="end"
+                                android:src="@drawable/group_7" />
+
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+
+                            <LinearLayout
+                                android:layout_width="90sp"
+                                android:layout_height="90sp"
+                                android:layout_marginLeft="10dp"
+                                android:background="@drawable/group_parking"
+                                android:orientation="vertical">
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginTop="@dimen/_20sdp"
+                                    android:gravity="center"
+                                    android:padding="2dp"
+                                    android:text="@string/getting_car"
+                                    android:textColor="#ffffff"
+                                    android:textSize="12sp" />
+
+                            </LinearLayout>
+
+                            <ImageView
+                                android:layout_width="@dimen/_20sdp"
+                                android:layout_height="@dimen/_20sdp"
+                                android:layout_gravity="end"
+                                android:src="@drawable/group_7" />
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_10sdp">
+
+
+                            <LinearLayout
+                                android:layout_width="90sp"
+
+                                android:layout_height="90sp"
+                                android:background="@drawable/group_parking"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginTop="@dimen/_20sdp"
+                                    android:gravity="center"
+                                    android:padding="2dp"
+                                    android:text="@string/car_returned"
+                                    android:textColor="#ffffff"
+                                    android:textSize="12sp" />
+                            </LinearLayout>
+
+                            <ImageView
+                                android:layout_width="@dimen/_20sdp"
+                                android:layout_height="@dimen/_20sdp"
+                                android:layout_gravity="end"
+
+                                android:src="@drawable/group_7" />
+
+
+                        </FrameLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="@dimen/_140sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/active_client_completed_drawable"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/tvStatus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="COMPLETED"
+                        android:textColor="#ffffff"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/ivTick"
+                        android:layout_width="20sp"
+                        android:layout_height="20sp"
+                        android:layout_marginLeft="20dp"
+                        android:background="@drawable/group_7" />
+
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_completed">
+
+
+            <Button
+                android:id="@+id/button_returndashboard"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:background="#d74601"
+                android:text="RETURN TO DASHBOARD"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/_13sdp"
+
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</layout>

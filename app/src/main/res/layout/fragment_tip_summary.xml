@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/darkG">
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_150sdp"
+        android:background="@drawable/mg_drawable"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="@dimen/_10sdp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Available Tips"
+            android:textSize="@dimen/_15ssp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="$35"
+            android:textSize="@dimen/_15ssp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_40sdp"
+            />
+    </FrameLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CASH OUT"
+            android:background="@color/orange"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_13ssp"
+            android:layout_marginStart="@dimen/_60sdp"
+            android:layout_marginEnd="@dimen/_60sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Valet History"
+            android:textSize="@dimen/_12ssp"
+            android:textColor="@color/black"
+            android:layout_marginTop="@dimen/_20sdp"
+            />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvMyTipSummery"
+        android:layout_below="@id/linearLayout"
+        android:layout_width="match_parent"
+        android:background="@color/darkG"
+        android:layout_height="match_parent"/>
+</RelativeLayout>
+</layout>
